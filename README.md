@@ -1,5 +1,7 @@
 # Fiesta Online Resolution Editor
 
+![Originaler, inoffizieller Fantasy-Banner für den Fiesta Online Resolution Editor](fiesta-resolution-editor-banner.svg)
+
 **A small, local Windows editor for the display settings in Fiesta Online's `Option.mco`.**
 
 [Deutsch](#deutsch) · [English](#english)

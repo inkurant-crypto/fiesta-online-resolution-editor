@@ -1,0 +1,95 @@
+<!-- SPDX-License-Identifier: GPL-3.0-only; Copyright (C) 2026 inkurant-crypto -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Fiesta Online Resolution Editor</title>
+  <desc id="desc">An original, unofficial fantasy banner in plum, violet, and gold, with a moonlit castle and a resolution settings card.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21142b"/>
+      <stop offset=".48" stop-color="#512258"/>
+      <stop offset="1" stop-color="#32183c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".27" cy=".36" r=".72">
+      <stop offset="0" stop-color="#d481a7" stop-opacity=".44"/>
+      <stop offset="1" stop-color="#d481a7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a3b76" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#201426" stop-opacity=".92"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0c879"/>
+      <stop offset=".52" stop-color="#fff0bb"/>
+      <stop offset="1" stop-color="#d69b58"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#35223d" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#20162a" stop-opacity=".98"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#sky)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+
+  <!-- Moonlit sky and small original star details -->
+  <circle cx="264" cy="111" r="43" fill="#f7dba3" opacity=".12" filter="url(#softGlow)"/>
+  <path d="M268 71a35 35 0 1 0 35 51 29 29 0 0 1-35-51Z" fill="#ffe8b2" opacity=".88"/>
+  <g fill="#ffe9bb" opacity=".88">
+    <circle cx="94" cy="78" r="2"/><circle cx="145" cy="125" r="1.5"/>
+    <circle cx="345" cy="71" r="1.7"/><circle cx="394" cy="130" r="1.3"/>
+    <circle cx="440" cy="57" r="2"/><circle cx="510" cy="103" r="1.4"/>
+    <circle cx="172" cy="55" r="1.2"/><circle cx="70" cy="151" r="1.2"/>
+  </g>
+  <g stroke="#f6d990" stroke-width="1.4" opacity=".72">
+    <path d="M382 85v10m-5-5h10"/><path d="M124 168v8m-4-4h8"/>
+    <path d="M477 56v8m-4-4h8"/>
+  </g>
+
+  <!-- Original distant hills and castle silhouette -->
+  <path d="M0 246 103 184l75 38 88-75 89 80 94-59 105 80 87-52 93 53 105-84 99 64 104-67 158 91v107H0Z" fill="#3a2147" opacity=".76"/>
+  <path d="M0 281 129 236l95 35 104-62 110 58 94-31 111 39 125-67 103 60 130-50 116 48 83-29v123H0Z" fill="url(#horizon)"/>
+  <g fill="#26172f" stroke="#d7a969" stroke-opacity=".45" stroke-width="2">
+    <path d="M86 279v-73h30v73Zm-7-73 22-27 22 27Z"/>
+    <path d="M121 279v-54h26v54Zm-5-54 18-23 18 23Z"/>
+    <path d="M145 279v-83h34v83Zm-7-83 24-30 24 30Z"/>
+    <path d="M178 279v-61h27v61Zm-5-61 18-24 18 24Z"/>
+    <path d="M208 279v-47h24v47Z"/>
+  </g>
+  <g fill="#f2c776" opacity=".78">
+    <rect x="99" y="216" width="4" height="9" rx="2"/>
+    <rect x="156" y="211" width="5" height="10" rx="2"/>
+    <rect x="188" y="228" width="4" height="8" rx="2"/>
+    <path d="M0 330h558" stroke="#dfb979" stroke-width="1" opacity=".34"/>
+  </g>
+
+  <!-- Brand copy -->
+  <g font-family="Segoe UI, Trebuchet MS, Arial, sans-serif">
+    <text x="64" y="65" fill="#f4dba8" font-size="13" font-weight="700" letter-spacing="3.6">INDEPENDENT FAN TOOL · INOFFIZIELLES PROJEKT</text>
+    <text x="62" y="145" fill="#fff7e8" font-size="54" font-weight="700" letter-spacing="-.8">Fiesta Online</text>
+    <text x="66" y="190" fill="url(#gold)" font-size="19" font-weight="700" letter-spacing="4.4">RESOLUTION EDITOR</text>
+    <text x="66" y="222" fill="#f0e7f0" font-size="15" opacity=".9">Auflösung &amp; Anzeigemodus · Resolution &amp; display mode</text>
+    <text x="66" y="318" fill="#d9c5dc" font-size="11" letter-spacing="2.4" opacity=".8">LOCAL · OPEN SOURCE · GPL-3.0</text>
+  </g>
+
+  <!-- Settings card illustration -->
+  <g transform="translate(692 62)">
+    <rect x="0" y="0" width="438" height="236" rx="18" fill="#d39b72" opacity=".13"/>
+    <rect x="3" y="3" width="432" height="230" rx="16" fill="url(#card)" stroke="#e8c47e" stroke-opacity=".72" stroke-width="1.5"/>
+    <path d="M4 45h430" stroke="#e9c47d" stroke-opacity=".28"/>
+    <circle cx="27" cy="24" r="4" fill="#e7b876"/>
+    <circle cx="43" cy="24" r="4" fill="#ce79a2"/>
+    <circle cx="59" cy="24" r="4" fill="#8c6aa5"/>
+    <text x="82" y="29" fill="#efdfca" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">DISPLAY SETTINGS</text>
+    <text x="28" y="77" fill="#cdb9d2" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="1.6">RESOLUTION</text>
+    <rect x="27" y="92" width="384" height="56" rx="9" fill="#1c1423" stroke="#70547a" stroke-width="1"/>
+    <text x="47" y="128" fill="#fff4e3" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">2560 × 1440</text>
+    <path d="m378 116 7 7 7-7" fill="none" stroke="#e3c28b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="27" y="168" width="185" height="39" rx="8" fill="#8b3e79" stroke="#f0c879" stroke-width="1.3"/>
+    <text x="119.5" y="192" text-anchor="middle" fill="#fff4e9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">WINDOWED</text>
+    <rect x="226" y="168" width="185" height="39" rx="8" fill="#32243a" stroke="#7f6787" stroke-width="1"/>
+    <text x="318.5" y="192" text-anchor="middle" fill="#ddcfe0" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1">FULLSCREEN</text>
+    <circle cx="404" cy="66" r="3" fill="#f0ca82"/>
+    <path d="M399 66h10M404 61v10" stroke="#f0ca82" stroke-width="1" opacity=".8"/>
+  </g>
+</svg>
