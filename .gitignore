@@ -1,0 +1,10 @@
+.vs/
+bin/
+obj/
+/release/
+*.user
+*.suo
+*.pdb
+*.ilk
+*.log
+*.tmp
